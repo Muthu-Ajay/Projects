@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bdy d-flex justify-content-center align-items-center">
+        <form>
+           <img src="img/icon.png" class="logicon"/>
+           <div style="height:430px;width:400px; border:1px solid black;padding-top:50px;box-shadow:2px 2px 5px 5px">
+               <h1 class="text-center text-dark">LOGIN</h1>
+               <div class="mt-3 ms-5">
+               <Label style="font-size:25px" class="text-dark">Username</Label>
+               <input type="text" id="TextBox1" class="rounded" placeholder="Username" style="width:300px; height:35px"></input><i class="fa-solid fa-user"></i>
+                   <h5 id="err1" style="color: red;"></h5>
+               <Label class="text-dark" style="font-size:25px;margin-top:10px">Password</Label>
+               <input type="password" class=" rounded" id="TextBox2" placeholder="Password" style="width:300px;height:35px" /><i class="fa-solid fa-lock"></i>
+                   <h5 id="err2" style="color: red;"></h5>
+               <a class="text-dark" style="margin-left:170px;margin-top:10px;text-decoration:none">Forget Password?</a>
+               <a class="btn btn-outline-dark d-block rounded mt-2" href="home.html" style="width:300px;height:35px;">LOGIN</a>
+               </div>
+               </div>
+       </form>
+       <script src="script.js"></script>
+       <script src="lib/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

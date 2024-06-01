@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="img/logo.png" style="height:50px;width:50px;border-radius:50%"/><a class="nav-item nav-link navbar-brand text-white">Volvo Travels</a>
+        <button class="navbar-toggler bg-white" data-toggle="collapse" data-target="#myNavbar"><span class="navbar-toggler-icon bg-white"></span></button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="pe-5"><a href="Home.html" class="nav-item nav-link text-white">Home</a></li>
+                <li class="pe-5"><a href="About.html" class="nav-item nav-link text-white">About</a></li>            
+                <li class="pe-5"><a href="Services.html" Text="Services" class="nav-item nav-link text-white">Services</a></li>                
+                <li class="pe-5"><a href="Contact.html" class="nav-item nav-link text-white">Contacts</a></li>                
+                <li class="pe-5"><a href="ticketing.html" class="nav-item nav-link text-white">Booking</a></li>
+                <li class="pe-5"><a href="Login.html" class="nav-item nav-link text-light btn btn-light  btlog">Login</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="ticket-info d-flex mt-3">
+        <div class="selected d-flex"></div><h5>Selected</h5>
+        <div class="available d-flex ml-3"></div><h5>Available</h5>
+        <div class="booked d-flex ml-3"></div><h5>Booked</h5>
+        </div>
+       <div class="container">
+           <div class="row">
+       <div class="seat-holder1 ml-5">
+            <div id="seat1">1</div>
+            <div id="seat2" onclick="select1()" ondblclick="unselect1()">2</div>
+            <div id="seat3">3</div>
+            <div id="seat4" onclick="select2()" ondblclick="unselect2()">4</div>
+            <div id="seat5" onclick="select3()" ondblclick="unselect3()">5</div>
+            <div id="seat6">6</div>
+            <div id="seat7" onclick="select4()" ondblclick="unselect4()">7</div>
+            <div id="seat8" onclick="select5()" ondblclick="unselect5()">8</div>
+            <div id="seat9">9</div>
+            <div id="seat10" onclick="select6()" ondblclick="unselect6()">10</div>
+            <div id="seat11">11</div>
+            <div id="seat12" onclick="select7()" ondblclick="unselect7()">12</div>
+            <div id="seat13" onclick="select8()" ondblclick="unselect8()">13</div>
+            <div id="seat14" onclick="select9()" ondblclick="unselect9()">14</div>
+            <div id="seat15">15</div>
+            <div id="seat16">16</div>
+            <div id="seat17" onclick="select10()" ondblclick="unselect10()">17</div>
+            <div id="seat18">18</div>
+            <div id="seat19" onclick="select11()" ondblclick="unselect11()">19</div>
+            <div id="seat20" onclick="select12()" ondblclick="unselect12()">20</div>
+            <div id="seat21">21</div>
+            <div id="seat22" onclick="select13()" ondblclick="unselect13()">22</div>
+            <div id="seat23" onclick="select14()" ondblclick="unselect14()">23</div>
+            <div id="seat24">24</div>
+            <div id="seat25" onclick="select15()" ondblclick="unselect15()">25</div>
+            <div id="seat26" onclick="select16()" ondblclick="unselect16()">26</div>
+            </div>
+            <div class="seat-holder2 ml-5">
+           <div id="seat27">27</div>
+            <div id="seat28">28</div>
+            <div id="seat29" onclick="select17()" ondblclick="unselect17()">29</div>
+            <div id="seat30" onclick="select18()" ondblclick="unselect18()">30</div>
+            <div id="seat31">31</div>
+            <div id="seat32" onclick="select19()" ondblclick="unselect19()">32</div>
+            <div id="seat33" onclick="select20()" ondblclick="unselect20()">33</div>
+            <div id="seat34">34</div>
+            <div id="seat35" onclick="select21()" ondblclick="unselect21()">35</div>
+            <div id="seat36" onclick="select22()" ondblclick="unselect22()">36</div>
+            <div id="seat37">37</div>
+            <div id="seat38">38</div>
+            <div id="seat39" onclick="select23()" ondblclick="unselect23()">39</div>
+            <div id="seat40" onclick="select24()" ondblclick="unselect24()">40</div>
+            <div id="seat41" onclick="select25()" ondblclick="unselect25()">41</div>
+            <div id="seat42">42</div>
+            <div id="seat43">43</div>
+            <div id="seat44" onclick="select26()" ondblclick="unselect26()">44</div>
+            <div id="seat45" onclick="select27()" ondblclick="unselect27()">45</div>
+            <div id="seat46">46</div>
+            <div id="seat47" onclick="select28()" ondblclick="unselect28()">47</div>
+            <div id="seat48" onclick="select29()" ondblclick="unselect29()">48</div>
+            <div id="seat49"></div>
+            <div id="seat50" onclick="select30()" ondblclick="unselect30()">50</div>
+       </div>
+               </div>
+           </div>
+
+       <div class="container mt-5">
+           <div class="row">
+       <table style="width:100%;" class="table-responsive">
+           <tr>
+               <td colspan="4" style="font-family: 'Times New Roman', Times, serif; font-size: xx-large; font-weight: bolder; font-style: normal; color: #FFFFFF; text-align: center; background-color: #0000FF; border: 3px solid #000000; padding-top: 5px; padding-bottom: 5px; margin-top: 10px;">Passenger Details</td>
+           </tr>
+           <tr>
+               <td style="background-color: #FFFFCC">
+                   <label>Passenger_id</label>
+               </td>
+               <td style="background-color: #FFFFCC">
+                   <label>Name</label>
+               </td>
+               <td style="background-color: #FFFFCC">
+                   <label>Age</label>
+               </td>
+               <td style="background-color: #FFFFCC">
+                   <label>Start</label>
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   <input type="text" Width="180px" />
+               </td>
+               <td>
+                    <input type="text" Width="180px" />
+               </td>
+               <td>
+                   <input type="text" Width="180px" />
+               </td>
+               <td>
+                   <select>
+                       <option Value="Tirunelveli">Tirunelveli</option>
+                       <option>Thoothukudi</option>
+                       <option>Madurai</option>
+                       <option>Trichy</option>
+                       <option>Villupuram</option>
+                       <option>Coimbatore</option>
+                       <option>Kanyakumari</option>
+                       <option>Tenkasi</option>
+                       <option>Chennai</option>
+                       <option></option>
+                   </select>
+               </td>
+           </tr>
+           <tr>
+               <td>&nbsp;</td>
+               <td>&nbsp;</td>
+               <td>&nbsp;</td>
+               <td>&nbsp;</td>
+           </tr>
+           <tr>
+               <td style="background-color: #FFFFCC">
+                   <label>Destination</label>
+               </td>
+               <td style="background-color: #FFFFCC">
+                   <label>Adult</label>
+               </td>
+               <td style="background-color: #FFFFCC">
+                   <label>Child</label>
+               </td>
+               <td style="background-color: #FFFFCC">
+                   <label>Seat Number</label>
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   <select>
+                       <option>Chennai</option>
+                       <option>Trichy</option>
+                       <option>Thoothukudi</option>
+                       <option>Kanyakumari</option>
+                       <option>Kovai</option>
+                       <option>Nagercoil</option>
+                       <option>Tenkasi</option>
+                       <option>Madurai</option>
+                       <option>Tirunelveli</option>
+                       <option></option>
+                   </select>
+               </td>
+               <td>
+                   <input type="text" style="width: 180px;"></input>
+               </td>
+               <td>
+                <input type="text" style="width: 180px;"></input>
+               </td>
+               <td>
+                <input type="text" style="width: 180px;"></input>
+               </td>
+           </tr>
+           <tr>
+               <td>&nbsp;</td>
+               <td>&nbsp;</td>
+               <td>&nbsp;</td>
+               <td>&nbsp;</td>
+           </tr>
+           <tr>
+               <td style="background-color: #FFFFCC">
+                   <label>Email</label>
+               </td>
+               <td style="background-color: #FFFFCC">
+                   <label>Coach</label>
+               </td>
+               <td style="background-color: #FFFFCC">
+                   <label>Date</label>
+               </td>
+               <td style="background-color: #FFFFCC">
+                   <label>Mobile</label>
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   <input type='text' style="width: 180px;" />
+               </td>
+               <td>
+                   <select>
+                       <option>Ac Sleeper(Rs.1800)</option>
+                       <option>Non/Ac seater(Rs.800)</option>
+                       <option>Omni(Rs.500)</option>
+                       <option>Mini Bus(Rs.300)</option>
+                       <option>Volvo9400(Rs.1000)</option>
+                       <option>Volvo9500(Rs.1200)</option>
+                       <option>Volvo9600(Rs.1300)</option>
+                   </select>
+               </td>
+               <td>
+                <input type='text' style="width: 180px;" />
+               </td>
+               <td>
+                <input type='text' style="width: 180px;" />
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   &nbsp;</td>
+               <td>
+                   &nbsp;</td>
+               <td>
+                   &nbsp;</td>
+               <td>
+                   &nbsp;</td>
+           </tr>
+           <tr>
+               <td style="background-color: #FFFFCC">
+                   <label>Payment Option</label>
+               </td>
+               <td style="background-color: #FFFFCC">
+                   <label>UPI id</label>
+               </td>
+               <td style="background-color: #FFFFCC">
+                   <label>Amount</label>
+               </td>
+               <td style="background-color: #FFFFCC">
+                   &nbsp;</td>
+           </tr>
+           <tr>
+               <td>
+                   <select>
+                       <option>GPay</option>
+                       <option>Paytm</option>
+                       <option>Phonepay</option>
+                   </select>
+               </td>
+               <td>
+                <input type='text' style="width: 180px;" />
+               </td>
+               <td>
+                <input type='text' style="width: 180px;" />
+               </td>
+               <td>
+                   <button style="width: 180px;background-color: orange; color: white;">Reset</button>
+               </td>
+           </tr>
+           <tr>
+               <td style="background-color: #FFFFCC">
+                   &nbsp;</td>
+               <td style="background-color: #FFFFCC">
+                   &nbsp;</td>
+               <td style="background-color: #FFFFCC">
+                   &nbsp;</td>
+               <td style="background-color: #FFFFCC">
+                   &nbsp;</td>
+           </tr>
+           <tr>
+               <td>
+                <button style="width: 180px; background-color: green; color: white;">Book Ticket</button>
+               </td>
+               <td>
+                <button style="width: 180px; background-color: blue; color: white;">View Booking</button>
+               </td>
+               <td>                   
+                <button style="width: 180px; background-color: yellow; color: white;">Update Booking</button>
+               </td>
+               <td>
+                  <button style="width: 180px; background-color: red; color: white;">Cancel Booking</button>
+               </td>
+           </tr>
+       </table>
+               </div>
+           </div>
+   </form>
+   <script src="script.js"></script>
+    <script src="lib/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

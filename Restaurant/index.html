@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="lib/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>Restaurant</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <a class="navbar-brand ms-3 text-warning">Restaurant</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar"><span class="navbar-toggler-icon"></span></button>
+             <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav ms-auto">
+               <li><a href="index.html" class="nav-item nav-link me-5 text-white">Home</a></li>
+               <li><a href="About.html" class="nav-item nav-link me-5 text-white">About</a></li>
+               <li><a href="Service.html" class="nav-item nav-link me-5 text-white">Service</a></li>
+               <li><a href="Menu.html" class="nav-item nav-link me-5 text-white">Menu</a></li>
+               <li><a href="index.html" class="nav-item nav-link me-5 text-white dropdown">Pages</a></li>
+               <li><a href="Contact.html" class="nav-item nav-link me-5 text-white">Contact</a></li>
+               <li><a href="index.html" class="btn bg-warning text-white nav-item nav-link me-5 text-white">Book A Table</a></li>
+               <button onclick="toggledark()" class="bg-dark text-light"><i class="fa-solid fa-moon"></i></button>
+            </ul>
+        </div>
+    </nav>
+    <div class="infobox">
+
+        <div class="container">
+            <div class="row">
+                <div class="content mt-5 col-lg-6 col-sm--12">
+                    <h1 class="text-white head1">Enjoy Our Delicious Meal</h1>
+                    <a href="" class="btn btn-warning text-white p-3">Book A Table</a>
+                </div>
+                <div class="stimg col-lg-6 col-sm-12 mt-5">
+                    <img src="img/hero.png" alt="" class="hero">
+                </div>        
+            </div>
+            <button id="top"><i class="fa-solid fa-arrow-up"></i></button>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="card col-lg-3 col-sm-6 crdone foodcard">
+                <div class="card-body">
+                    <h3 class="card-title">Master Chef</h3>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vero sequi sunt alias esse beatae dolore repellat? Unde quibusdam mollitia officia. Totam nihil deserunt veritatis excepturi. Exercitationem deleniti in rerum.</p>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-sm-6 crdtwo foodcard">
+                <div class="card-body">
+                    <h3 class="card-title">Quality Food</h3>
+                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vero sequi sunt alias esse beatae dolore repellat? Unde quibusdam mollitia officia. Totam nihil deserunt veritatis excepturi. Exercitationem deleniti in rerum.</p>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-sm-6 crdthree foodcard">
+            <div class="card-body">
+                <h3 class="card-title">Online Order</h3>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vero sequi sunt alias esse beatae dolore repellat? Unde quibusdam mollitia officia. Totam nihil deserunt veritatis excepturi. Exercitationem deleniti in rerum.</p>
+            </div>
+            </div>
+            <div class="card col-lg-3 col-sm-6 crdfour foodcard">
+            <div class="card-body">
+                <h3 class="card-title">24/7 Service</h3>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vero sequi sunt alias esse beatae dolore repellat? Unde quibusdam mollitia officia. Totam nihil deserunt veritatis excepturi. Exercitationem deleniti in rerum.</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <img src="img/about-1.jpg" alt="" class="abimg1 card">
+                <img src="img/about-2.jpg" alt="" class="abimg1 card">
+                <img src="img/about-3.jpg" alt="" class="abimg1 card">
+            </div>
+            <div class="aboutcontent col-lg-8 col-sm-12">
+                <h4 class="ab">About Us</h4><hr>
+                <h1>Welcome to Restaurant</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus tempora nihil quam aliquid atque dolorum accusantium, deserunt excepturi et suscipit culpa doloremque dicta nisi quis beatae minima sint totam cumque?</p>
+                <span id="count1">0</span>
+                <h4>Years of <b>Experience</b></h4><hr><span id="count2">0</span><h4>Popular <b>Master Chefs</b></h4>
+                <a href="" class="btn btn-warning text-light p-3">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 menubox">
+        <div class="row">
+            <h4 class="text-center food">Food Menu</h4>
+            <h1 class="text-center">Most Popular Items</h1>
+            <div class="col-lg-6 col-sm-12">
+                <h3 class="">Full Meals</h3>
+                <img src="img/menu-1.jpg" alt="" class="menuimg">
+                <h2 class="price">$115</h2>
+                <hr>
+                <h3>Chicken Burger</h3>
+                <img src="img/menu-2.jpg" alt="" class="menuimg">
+                <h2 class="price">$115</h2>
+                <hr>
+                <h3>Chicken Biryani</h3>
+                <img src="img/menu-3.jpg" alt="" class="menuimg">
+                <h2 class="price">$115</h2>
+                <hr>
+                <h3>Beaf Tandoori</h3>
+                <img src="img/menu-4.jpg" alt="" class="menuimg">
+                <h2 class="price">$115</h2>
+                <hr>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <h3>Butter Paratha</h3>
+                <img src="img/menu-5.jpg" alt="" class="menuimg">
+                <h2 class="price">$115</h2>
+                <hr>
+                <h3>Chicken Burger</h3>
+                <img src="img/menu-2.jpg" alt="" class="menuimg">
+                <h2 class="price">$115</h2>
+                <hr>
+
+                <h3>Veg Pulav</h3>
+                <img src="img/menu-3.jpg" alt="" class="menuimg">
+                <h2 class="price">$115</h2>
+                <hr>
+                <h3>Chicken Burger</h3>
+                <img src="img/menu-4.jpg" alt="" class="menuimg">
+                <h2 class="price">$115</h2>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <iframe src="img/video.jpg" class="w-100 h-100"></iframe>
+            </div>
+            <div class="col-lg-6 col-sm-12 bg-dark text-light p-5">
+                <b action="">
+                    <h5 style="color:orange;font-style:italic">Reservation</h5>
+                    <b><h1 style="font-size:50px;font-family:sans-serif">Book A Table Online</h1></b>
+                    <input type="text" placeholder="Your Name" class="p-3 rounded inp1" style="width:280px">
+                    <input type="email" placeholder="Your E-Mail" class="p-3 rounded ms-1 mt-2 inp2" style="width:280px">
+                    <input type="datetime" placeholder="Date & Time" class="p-3 rounded mt-2 inp3" style="width:280px">
+                    <select name="" id="" class="p-3 ms-1 mt-2 rounded inp4" style="width:280px">
+                        <option value="">People1</option>
+                        <option value="">People2</option>
+                        <option value="">People3</option>
+                    </select>
+                    <input type="text" placeholder="Special Request" class="p-5 rounded mt-3" style="width: 565px;">
+                    <button class="text-white bg-warning w-100 p-3 mt-3">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 chefbox">
+        <div class="row">
+            <h4 class="text-center team">Team Members</h4>
+            <b><h2 class="text-center">Our Master Chefs</h2></b>
+            <div class="card chef1 col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <img src="img/team-1.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">Full Name</h3>
+                        <p class="card-text">Designation</p>
+                    </div>
+            </div>
+            <div class="card chef2 col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <img src="img/team-2.jpg" alt="">
+                      <div class="card-body">
+                        <h3 class="card-title">Full Name</h3>
+                        <p class="card-text">Designation</p>
+                    </div>
+            </div>
+            <div class="card chef3 col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <img src="img/team-3.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">Full Name</h3>
+                        <p class="card-text">Designation</p>
+                    </div>
+            </div>
+            <div class="card chef4 col-lg-3 col-md-6 col-sm-12 mt-5">
+                    <img src="img/team-4.jpg" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">Full Name</h3>
+                        <p class="card-text">Designation</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5">
+            <h3 class="text-center">Testimonal</h3>
+            <h2 class="text-center">Our Clients Say!!!</h2>
+            
+            <div class="carousel slide"  id="myImg">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/menu-1.jpg" alt="" class="w-100 d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/menu-2.jpg" alt="" class="w-100 d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/menu-3.jpg" alt="" class="w-100 d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/menu-5.jpg" alt="" class="w-100 d-block">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myImg" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myImg" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+    </div>
+
+            <div style="background-color: rgb(21, 21, 49);;" class="mt-5 p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="company col-lg-3 col-md-6 col-sm-12">
+                        <h4 style="color: orange; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Company</h4><hr class="text-light">
+                        <ul class="list-unstyled">
+                        <li><a href="" class="text-light text-decoration-none">About Us</a></li>
+                        <li><a href="" class="text-light text-decoration-none">Contact Us</a></li>
+                        <li><a href="" class="text-light text-decoration-none">Reservation</a></li>
+                        <li><a href="" class="text-light text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="" class="text-light text-decoration-none">Terms & Condition</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="contact col-lg-3 col-md-6 col-sm-12">
+                        <h4 style="color: orange; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Contact</h4><hr class="text-light">
+                        <ul class="list-unstyled text-light">
+                        <li>123 Street,New York,USA</li>
+                        <li>+01234567890</li>
+                        <li>info@example.com</li>
+                        <li></li>
+                        </ul>
+
+                    </div>
+                    <div class="opening col-lg-3 col-md-6 col-sm-12">
+                        <h4 style="color: orange; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Opening</h4><hr class="text-light">
+                        <ul class="list-unstyled text-light">
+                        <li>Monday-Saturday</li>
+                        <li>09AM-09PM</li>
+
+                        <li>Sunday</li>
+                        <li>10AM-08PM</li>
+                        </ul>
+
+                    </div>
+                    <div class="newsletter col-lg-3 col-md-6 col-sm-12">
+                        <h4 style="color: orange; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Newsletter</h4><hr class="text-light">
+                        <p class="text-light">Dolor amet dfgyt ngytjgjhb jmhioui est.</p>
+                        <input type="email" placeholder="Your email" class="p-3 w-100"><button class="p-2 btn1">SIGNUP</button>
+                    </div>
+                    <hr class="text-light">
+                    <div class="col-lg-6 col-sm-12">
+                        <p class="text-light">@c Your Site Name,All Right Reserved.By HTML Codex..</p>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <a href="" class="text-decoration-none text-light">Home</a>
+                            <a href="" class="text-decoration-none text-light">Cookies</a>
+                            <a href="" class="text-decoration-none text-light">Help</a>
+                            <a href="" class="text-decoration-none text-light">FQAa</a>
+                        </div>
+                </div>
+            </div>
+       
+        </div>
+<script src="lib/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="img/logo.png" style="height:50px;width:50px;border-radius:50%"/><a class="nav-item nav-link navbar-brand text-white">Volvo Travels</a>
+        <button class="navbar-toggler bg-white" data-bs-toggle="collapse" data-bs-target="#myNavbar"><span class="navbar-toggler-icon bg-white"></span></button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="pe-5"><a href="Home.html" class="nav-item nav-link text-white">Home</a></li>
+                <li class="pe-5"><a href="About.html" class="nav-item nav-link text-white">About</a></li>            
+                <li class="pe-5"><a href="Services.html" Text="Services" class="nav-item nav-link text-white">Services</a></li>                
+                <li class="pe-5"><a href="Contact.html" class="nav-item nav-link text-white">Contacts</a></li>                
+                <li class="pe-5"><a href="ticketing.html" class="nav-item nav-link text-white">Booking</a></li>
+                <li class="pe-5"><a href="Login.html" class="nav-item nav-link text-light btn btn-light  btlog">Login</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="backimg1 p-5">
+        <h1 class="text-white t1 mt-5 text-center">About Us</h1>
+    </div>
+        <div class="container">
+            <div class="row">
+                <div clss="col-lg-4 col-md-6 col-sm-12">
+            <h1 class="text-center text-success mt-2">Welcome To Volvo Travels</h1>
+                    <h3 class="mt-3">Parent Organization:AB Volvo</h3>
+                    <h3>Founded:1968</h3>
+                    <h3>Brand:Volvo;Prevost Car;Nova</h3>
+                    <h3>No of Employees:7,353(2021)</h3>
+                </div>
+                <div>
+                    <p>Volvo Buses is a subsidiary and a business area of the sweedish vehicle maker volvo which became an independent division in 1968.It is based in Gothenburg</p>
+                    <asp:HyperLink runat="server" ID="anchor2" Text="www.volvobuses.com" NavigateUrl="#" class="text-center text-primary"></asp:HyperLink>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="card col-lg-4 col-md-6 col-sm-12 c1">
+                    <img src="img/seat1.jpg" class="p-3 rounded"/>
+                    <div class="card-body cd1 text-center">
+                        <h3>Premium passenger experience</h3>
+                        <p>Safely,comfort and reliability.Our products and services are designed for a first-class passenger experience,ranging from efficient city transport solutions to luxury coach travel.We aim to deliver a premium experience every time</p>
+                    </div>
+                </div>
+                 <div class="card col-lg-4 col-mg-6 col-sm-12 c2">
+                    <img src="img/img1.jpg" class="p-3 rounded"/>
+                    <div class="card-body cd2 text-center">
+                    <h3>The Driver's Choice</h3>
+                        <p>Volvo is reowned for world-class driver ergonomics with easy to read instruments and controls located with convenient reach.The driver's environment,chassis and driveline are designed for unsurpassed handling,control and premium driving feel.Making a Volvo the perfect workplace. </p>
+                    </div>
+               </div>
+                 <div class="card col-lg-4 col-mg-6 col-sm-12 c3">
+                   <img src="img/img2.jpeg" class="p-3 rounded"/>
+                   <div class="card-body cd3 text-center">
+                   <h3>Ownership in Partnership</h3>
+                       <p>We focus on long-term relationships,with a deep desire to support our customers and meet their unique needs and requirements.We genuinely care about their business and strive to be the most proactive and responsive partner for a premium experience.</p>
+                   </div>
+                </div>
+    
+            </div>
+        </div>
+        <form runat="server">
+        <div class="container">
+        <div class="row">
+    <div class="card col-lg-4 col-md-6 col-sm-12 p-3">
+        <h3>CONTACT AGENCY</h3>
+        <p>23XXXXX78</p>
+    </div>
+            <div class=" card col-lg-4 col-md-6 col-sm-12 p-3">
+                <h3>OUR CONTACTS</h3>
+                <h5>Address:*********</h5>
+                <h5>Phone:87XXXXXX67</h5>
+                <h5>E-mail:XXXXabc@gmail.com</h5>
+            </div>
+            <div class="card col-lg-4 col-md-6 col-sm-12 p-3">
+                <h3>ANY QUESTIONS?</h3>
+                <input type="text" placeholder="Your Name" class="rounded-pill"/>
+                <input type="email" placeholder="E-mail" class="rounded-pill mt-2"/>
+                <input type="text" placeholder="Message" class="rounded-pill mt-2"/>
+                <button class="rounded-pill btn-warning mt-2">Send Message</button>
+            </div>
+        </div>
+    </div>
+        </form>
+        <script src="script.js"></script>
+    <script src="lib/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

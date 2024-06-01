@@ -1,0 +1,993 @@
+.btn{
+    font-size:20px;
+    font-weight:bolder;
+}
+.img{
+    height:120px;
+    width:120px;
+    position:relative;
+    bottom:510px;
+    left:630px;
+    border-radius:120px;
+}
+.backimg1{
+    height:700px;
+    width:100%;
+    background-image:url("img/backgroundimg2.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:0;
+    transform:translateY(200px);
+    animation:animate1 2s linear forwards;
+}
+
+@keyframes animate1{
+    100%{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.t1 {
+    opacity: 0;
+    transform: translateY(200px);
+    animation: animate2 2s linear 2s forwards;
+}
+.t2 {
+    opacity: 0;
+    transform: translateY(200px);
+    animation: animate3 2s linear 3s forwards;
+}
+
+@keyframes animate2 {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes animate3 {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.hcd:hover{
+    background-color: blue;
+    color: white;
+}
+.bus1:hover .rounded {
+        transition: linear 0.5s;
+        transform: scale(1.2);
+    }
+.bus2:hover .rounded{
+    transition:linear 0.5s;
+    transform:scale(1.2);
+}
+.bus3:hover .rounded {
+    transition: linear 0.5s;
+    transform: scale(1.2);
+}
+.bus4:hover .rounded {
+    transition: linear 0.5s;
+    transform: scale(1.2);
+}
+.bus5:hover .rounded {
+    transition: linear 0.5s;
+    transform: scale(1.2);
+}
+.bus6:hover .rounded {
+    transition: linear 0.5s;
+    transform: scale(1.2);
+}
+.bus7:hover .rounded {
+    transition: linear 0.5s;
+    transform: scale(1.2);
+}
+.bus8:hover .rounded {
+    transition: linear 0.5s;
+    transform: scale(1.2);
+}
+.bus9:hover .rounded {
+    transition: linear 0.5s;
+    transform: scale(1.2);
+}
+
+.bus1{
+    opacity:0;
+    transform:translateY(200px);
+    animation: busimg1 2s linear 2s forwards;
+}
+.bus2 {
+    opacity: 0;
+    transform: translateY(200px);
+    animation: busimg2 2s linear 4s forwards;
+}
+.bus3 {
+    opacity: 0;
+    transform: translateY(200px);
+    animation: busimg3 2s linear 6s forwards;
+}
+.bus4 {
+    opacity: 0;
+    transform: translateY(200px);
+    animation: busimg4 2s linear 8s forwards;
+}
+.bus5 {
+    opacity: 0;
+    transform: translateY(200px);
+    animation: busimg5 2s linear 10s forwards;
+}
+.bus6 {
+    opacity: 0;
+    transform: translateY(200px);
+    animation: busimg6 2s linear 12s forwards;
+}
+.bus7 {
+    opacity: 0;
+    transform: translateY(200px);
+    animation: busimg7 2s linear 14s forwards;
+}
+.bus8 {
+    opacity: 0;
+    transform: translateY(200px);
+    animation: busimg8 2s linear 16s forwards;
+}
+.bus9 {
+    opacity: 0;
+    transform: translateY(200px);
+    animation: busimg9 2s linear 18s forwards;
+}
+.card-body {
+    opacity: 0;
+    transform: translateY(200px);
+    animation: crdbdy 2s linear 16s forwards;
+}
+
+@keyframes busimg1{
+    100%{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+@keyframes busimg2 {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes busimg3 {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes busimg4 {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes busimg5 {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes busimg6 {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes busimg7 {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes busimg8 {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes busimg9 {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes crdbdy {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.footer1{
+    opacity:0;
+    animation:footer 2s linear 14s forwards;
+}
+
+@keyframes footer{
+    100%{
+        opacity:1;
+    }
+}
+
+.c1 {
+    opacity: 0;
+    transform: translateY(200px);
+    animation: crd1 2s linear 2s forwards;
+}
+
+.c2 {
+    opacity: 0;
+    transform: translateY(200px);
+    animation: crd2 2s linear 4s forwards;
+}
+
+.c3 {
+    opacity: 0;
+    transform: translateY(200px);
+    animation: crd3 2s linear 6s forwards;
+}
+
+@keyframes crd1{
+    100%{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+@keyframes crd2 {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes crd3 {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.c1:hover .rounded{
+    transition: linear 0.5s;
+    transform:scale(1.2);
+}
+.c2:hover .rounded {
+    transition: linear 0.5s;
+    transform: scale(1.2);
+}
+.c3:hover .rounded {
+    transition: linear 0.5s;
+    transform: scale(1.2);
+}
+
+.cd1,.cd2,.cd3{
+    opacity:0;
+    transform:translateY(200px);
+    animation:a1 2s linear 4s forwards;
+}
+
+@keyframes a1{
+    100%{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.bdy{
+    background-image: url("img/logimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+i:hover {
+    color: white;
+}
+.btnbk{
+    opacity:0;
+    transform:translateY(200px);
+    animation:2s btn linear 4s forwards;
+}
+@keyframes btn{
+    100%{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.btnbk:hover{
+    background-color:white;
+    color:black;
+}
+
+
+.fa-lock {
+    position: relative;
+    right:20px;
+    font-size: 17px;
+}
+
+.fa-user {
+    position: relative;
+    right:20px;
+}
+#logbtn:hover{
+    background-color:white;
+    color:black;
+}
+.logicon{
+    height:100px;
+    width:100px;
+    position:relative;
+    left:150px;
+    top:50px;
+}
+.seat-holder1{
+    height: 650px;
+    width: 130px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap:wrap;
+}
+.seat-holder2 {
+    height: 600px;
+    width: 130px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap:wrap;
+    margin-left:100px;
+}
+#seat1 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color:white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat2 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat3 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color:white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat4 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat5 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat6 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color:white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat7 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat8 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat9 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat10 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat11 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color:white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat12 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat13 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat14 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat15 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color:white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat16 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat17 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat18 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color:red;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat19 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat20 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat21 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color:white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat22 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat23 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat24 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color:white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat25 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat26 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat27 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat28 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat29 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat30 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat31 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color:white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat32 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat33 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat34 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color:white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat35 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat36 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat37 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat38 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: red;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat39 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat40 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat41 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat42 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat43 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat44 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat45 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat46 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+#seat47 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat48 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat49 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    background-color: red;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat50 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat51 {
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: red;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seat52 {
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#seat1:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat2:hover {
+    background-color: yellow;
+}
+#seat3:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat4:hover {
+    background-color: yellow;
+}
+#seat5:hover {
+    background-color: yellow;
+}
+#seat6:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat7:hover {
+    background-color: yellow;
+}
+#seat8:hover {
+    background-color: yellow;
+}
+#seat9:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat10:hover {
+    background-color: yellow;
+}
+#seat11:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat12:hover {
+    background-color: yellow;
+}
+#seat13:hover {
+    background-color: yellow;
+}
+#seat14:hover {
+    background-color: yellow;
+}
+#seat15:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat16:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat17:hover {
+    background-color: yellow;
+}
+#seat18:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat19:hover {
+    background-color: yellow;
+}
+#seat20:hover {
+    background-color: yellow;
+}
+#seat21:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat22:hover {
+    background-color: yellow;
+}
+#seat23:hover {
+    background-color: yellow;
+}
+#seat24:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat25:hover {
+    background-color: yellow;
+}
+#seat26:hover {
+    background-color: yellow;
+}
+#seat27:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat28:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat29:hover {
+    background-color: yellow;
+}
+#seat30:hover {
+    background-color: yellow;
+}
+#seat31:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat32:hover {
+    background-color: yellow;
+}
+#seat33:hover {
+    background-color: yellow;
+}
+#seat34:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat35:hover {
+    background-color: yellow;
+}
+#seat36:hover {
+    background-color: yellow;
+}
+#seat37:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat38:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat39:hover {
+    background-color: yellow;
+}
+#seat40:hover {
+    background-color: yellow;
+}
+#seat41:hover {
+    background-color: yellow;
+}
+#seat42:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat43:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat44:hover {
+    background-color: yellow;
+}
+#seat45:hover {
+    background-color: yellow;
+}
+#seat46:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat47:hover {
+    background-color: yellow;
+}
+#seat48:hover {
+    background-color: yellow;
+}
+#seat49:hover {
+    background-color: yellow;
+    color:black;
+}
+#seat50:hover {
+    background-color: yellow;
+}
+#seat51:hover {
+    background-color: yellow;
+}
+#seat52:hover {
+    background-color: yellow;
+}
+
+.selected{
+    height:20px;
+    width:20px;
+    background-color:green;
+}
+.available {
+    height: 20px;
+    width: 20px;
+    border:1px solid black;
+}
+.booked {
+    height: 20px;
+    width: 20px;
+    background-color: red;
+}
+.ticket-info{
+    margin-left:130px;
+}

@@ -1,0 +1,350 @@
+.infobox{
+    width: 100%;
+    height: 850px;
+    background-color: darkblue;
+}
+.hero{
+    height: 500px;
+    width: 500px;
+    animation: 15s first linear infinite;
+}
+
+@keyframes first {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.head1{
+    font-size: 70px;
+}
+
+.content{
+    transform: translateX(-620px);
+    animation: 1s second linear forwards;
+}
+
+@keyframes second {
+    100%{
+        transform: translateX(0);
+    }
+    
+}
+
+.foodcard:hover{
+    background-color: orange;
+    color: white;
+}
+
+h3{
+font-weight: bolder;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.abimg1{
+    height: 200px;
+    width: 330px;
+}
+
+span{
+    font-size: 50px;
+    font-weight: bolder;
+    color: orange;
+}
+.ab{
+    color: orange;
+    font-style: italic;
+}
+
+.food{
+    color: orange;
+}
+.menuimg{
+    height: 100px;
+    width: 100px;
+}
+
+.crdone{
+    transform:translateY(300px);
+    opacity: 0;
+    animation: 1s cd1 linear forwards;
+}
+.crdtwo{
+    transform:translateY(300px);
+    opacity: 0;
+    animation: 1s cd2 1s linear forwards;
+}
+.crdthree{
+    transform:translateY(300px);
+    opacity: 0;
+    animation: 1s cd3 2s linear forwards;
+}
+.crdfour{
+    transform:translateY(300px);
+    opacity: 0;
+    animation: 1s cd4 3s linear forwards;
+}
+
+@keyframes cd1 {
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes cd2 {
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes cd3 {
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes cd4 {
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.menubox{
+    transform: translateY(350px);
+    opacity: 0;
+    animation: 1s menu1 linear forwards;
+}
+
+@keyframes menu1 {
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+       
+}
+
+.price{
+    color: orange;
+    float: right;
+    margin-top: 70px;
+}
+
+.card img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 25px;
+}
+
+.chef1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    transform: translateY(200px);
+    opacity: 0;
+    animation: 1s chefone linear forwards;
+}
+
+.chef2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    transform: translateY(200px);
+    opacity: 0;
+    animation: 1s cheftwo 1s linear forwards;
+}
+
+.chef3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    transform: translateY(200px);
+    opacity: 0;
+    animation: 1s chefthree 2s linear forwards;
+}
+
+.chef4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    transform: translateY(200px);
+    opacity: 0;
+    animation: 1s cheffour 3s linear forwards;
+}
+
+.team{
+    color: orange;
+}
+
+.btn1{
+    position: relative;
+    bottom: 50px;
+    left: 180px;
+    background-color: orange;
+    color: white;
+    border: 1px solid black;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    transform: translateY(-100px);
+    opacity: 0;
+    animation: 1s tit linear forwards;
+}
+
+@keyframes tit {
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}
+
+.abimg1{
+    opacity: 0;
+    animation: 3s opimg linear forwards;
+    transform: scale(0);
+}
+
+@keyframes opimg {
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+}
+
+
+@keyframes chefone {
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes cheftwo {
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes chefthree {
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+@keyframes cheffour {
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+.ser1{
+    transform:translateY(300px);
+    opacity: 0;
+    animation: 1s cd1 linear forwards;
+}
+
+.ser2{
+    transform:translateY(300px);
+    opacity: 0;
+    animation: 1s cd1 1s linear forwards;
+}
+
+
+.aboutcontent{
+    transform:translateY(300px);
+    opacity: 0;
+    animation: 1s cd1 1s linear forwards;
+}
+
+.team{
+    transform:translateY(300px);
+    opacity: 0;
+    animation: 1s cd1 linear forwards;
+}
+.team1{
+    transform:translateY(300px);
+    opacity: 0;
+    animation: 1s cd1 1s linear forwards;
+}
+
+.footer{
+    opacity: 0;
+    animation: 5s foot 3s linear forwards;
+}
+
+@keyframes foot {
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+.nav-link{
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: 1s anchor linear forwards;
+}
+
+@keyframes anchor {
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+}
+
+.navbar-brand{
+    transform: translateX(-250px);
+    animation: 1s brand linear forwards;
+}
+
+@keyframes brand {
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+#top{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: white;
+    color: blue;
+}
+
+.darkmode{
+    background-color: #000;
+    color: white;
+}

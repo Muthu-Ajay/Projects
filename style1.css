@@ -1,0 +1,401 @@
+.bdy{
+    background-color: rgb(23, 23, 58);
+}
+
+
+.contents1 h2{
+    transform: translateY(-30px);
+    visibility: hidden;
+    animation: first 1s linear forwards;
+}
+
+.contents1 .info h2{
+    color: white;
+    transform: translateY(30px);
+    visibility: hidden;
+    animation: second 1s linear forwards;
+}
+.contents1 h1{
+    transform: translateX(-100px);
+    visibility: hidden;
+    transform-origin: left;
+    animation: third 1s linear forwards;
+}
+.contents1 .contents2 h4{
+    transform: translateX(50px);
+    animation: fourth 1s linear forwards;
+    visibility: hidden;
+}
+.btn1{
+    width: 150px;
+    padding: 8px;
+    border-radius:50px;
+    background-color: aqua;
+    box-shadow: 0 0 3px 3px aqua;
+    visibility: hidden;
+    transform: translateY(30px);
+    animation: fifth 1s linear forwards;
+}
+
+@keyframes first {
+    0%{
+        transform: translateY(-30px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
+
+@keyframes second {
+    0%{
+        transform: translateY(30px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0);
+        visibility: visible;
+    }    
+}
+
+@keyframes third {
+    0%{
+        transform: translateX(-100px);
+    }
+    50%{
+        transform: translateX(-50px);
+    }
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+@keyframes fourth {
+    0%{
+        transform: translateX(50px);
+    }
+    50%{
+        transform: translateX(30px);
+    }
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+@keyframes fifth {
+    100%{
+        transform: translateY(0);
+        visibility: visible;
+    }
+    
+}
+
+.bar1{
+    height: 15px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: load1 2s linear forwards;
+}
+.bar1::after{
+    content: '';
+    width: 260px;
+    height: 12px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: aqua;
+    transform-origin: left;
+    transform: scaleX(0);
+    animation: 2s load2 linear forwards;
+    animation-delay: 2s;
+}
+.bar2{
+    height: 15px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: load3 2s linear forwards;
+}
+.bar2::after{
+    content: '';
+    width: 240px;
+    height: 12px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: aqua;
+    transform-origin: left;
+    transform: scaleX(0);
+    animation: 2s load4 linear forwards;
+    animation-delay: 2s;
+}
+.bar3{
+    height: 15px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: load5 2s linear forwards;
+}
+.bar3::after{
+    content: '';
+    width: 180px;
+    height: 12px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: aqua;
+    transform-origin: left;
+    transform: scaleX(0);
+    animation: 2s load6 linear forwards;
+    animation-delay: 2s;
+}
+.bar4{
+    height: 15px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: load5 2s linear forwards;
+}
+.bar4::after{
+    content: '';
+    width: 200px;
+    height: 12px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: aqua;
+    transform-origin: left;
+    transform: scaleX(0);
+    animation: 2s load6 linear forwards;
+    animation-delay: 2s;
+}
+
+.bar5{
+    height: 15px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: load1 2s linear forwards;
+}
+.bar5::after{
+    content: '';
+    width: 260px;
+    height: 12px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: aqua;
+    transform-origin: left;
+    transform: scaleX(0);
+    animation: 2s load2 linear forwards;
+    animation-delay: 2s;
+}
+
+@keyframes load1 {
+    100%{
+        transform: scaleX(1);
+    }   
+}
+@keyframes load2 {
+    100%{
+        transform: scaleX(1);
+    }   
+}
+
+@keyframes load3 {
+    100%{
+        transform: scaleX(1);
+    }
+}
+@keyframes load4 {
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+@keyframes load5 {
+    100%{
+        transform: scaleX(1);
+    }   
+}
+@keyframes load6 {
+    100%{
+        transform: scaleX(1);
+    }   
+}
+
+@keyframes load7 {
+    100%{
+        transform: scaleX(1);
+    }   
+}
+@keyframes load8 {
+    100%{
+        transform: scaleX(1);
+    }   
+}
+
+
+.technical-skills h4{
+    transform: scaleY(0);
+    animation: 2s hide linear forwards;
+}
+
+@keyframes hide {
+    100%{
+        transform: scaleY(1);
+    }   
+}
+
+.svg1{
+    height: 140px;
+    width: 140px;
+    border-radius: 140%;
+    transform: rotate(-90deg);
+}
+.circle1{
+    height: 125px;
+    width: 125px;
+    fill: none;
+    stroke: aqua;
+    stroke-width: 41px;
+    stroke-dasharray: 450px;
+    stroke-dashoffset: 450px;
+    animation: animate1 2s linear forwards;
+}
+.svg2{
+    height: 140px;
+    width: 140px;
+    border-radius: 140%;
+    transform: rotate(-90deg);
+}
+.circle2{
+    height: 125px;
+    width: 125px;
+    fill: none;
+    stroke: aqua;
+    stroke-width: 41px;
+    stroke-dasharray: 450px;
+    stroke-dashoffset: 450px;
+    animation: animate2 2s linear forwards;
+}
+.svg3{
+    height: 140px;
+    width: 140px;
+    border-radius: 140%;
+    transform: rotate(-90deg);
+}
+.circle3{
+    height: 125px;
+    width: 125px;
+    fill: none;
+    stroke: aqua;
+    stroke-width: 42px;
+    stroke-dasharray: 450px;
+    stroke-dashoffset: 450px;
+    animation: animate3 2s linear forwards;
+}
+.svg4{
+    height: 140px;
+    width: 140px;
+    border-radius: 140%;
+    transform: rotate(-90deg);
+}
+.circle4{
+    height: 125px;
+    width: 125px;
+    fill: none;
+    stroke: aqua;
+    stroke-width: 41px;
+    stroke-dasharray: 450px;
+    stroke-dashoffset: 450px;
+    animation: animate4 2s linear forwards;
+}
+
+@keyframes animate1 {
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+@keyframes animate2 {
+    100%{
+        stroke-dashoffset: 80px;
+    }
+}
+@keyframes animate3 {
+    100%{
+        stroke-dashoffset: 70;
+    }
+}
+@keyframes animate4 {
+    100%{
+        stroke-dashoffset: 50;
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.fa-arrow-up-from-bracket{
+    position: fixed;
+}
+
+#number1{
+    position: relative;
+    top: 140px;
+    left: 50px;
+}
+
+
+#number2{
+    position: relative;
+    top: 320px;
+    left: 5px;
+}
+
+
+#number3{
+    position: relative;
+    top: 500px;
+    right: 20px;
+}
+
+
+#number4{
+    position: relative;
+    top: 680px;
+    right: 55px;
+}
+
+img{
+     opacity: 0;
+
+    animation: 7s imganimate linear forwards;
+}
+
+@keyframes imganimate {
+    100%{
+       
+        opacity: 1;
+
+    }
+    
+}
