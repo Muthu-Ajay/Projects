@@ -11,7 +11,7 @@
 <body class="bdy">
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(20, 20, 53);">
         <a href="" class="navbar-brand ms-5" style="font-size:30px">Portfolio</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar"><span class="navbar-toggler-icon"></span></button>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#myNavbar"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="navbar-nav ms-auto">
                 <li><a href="" class="nav-item nav-link me-5 text-light">Home</a></li>
@@ -22,39 +22,28 @@
             </ul>
         </div>
     </nav>
-
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-12">
-        <form action="" id="form">
-            <h1>Register</h1>
-            <div class="input-group">
+    <div class="container">
+        <div class="row"></div>
+        <div class="col-12">
+        <form action="" id="form" class="p-3 w-100 bg-dark mt-2">
+            <h1 class="text-center text-warning">Register</h1>
                 <label for="username">Username</label>
-                <input type="text" id="username" placeholder="Enter a Username"><i class="fa-solid fa-user"></i>
-                <div class="error"></div>
-            </div>
-            <div class="input-group">
+                <input type="text" id="username" placeholder="Enter a Username" name='user' class="rounded d-block w-100 p-1"><br>
                 <label for="email">E-mail</label>
-                <input type="email" id="email" placeholder="Enter a E-mail"><i class="fa-solid fa-envelope"></i>
-                <div class="error"></div>
-            </div>
-            <div class="input-group">
+                <input type="email" id="email" placeholder="Enter a E-mail" name="email" class="rounded d-block w-100 p-1"><br>
                 <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Enter a Password"><i class="fa-solid fa-lock"></i>
-                <div class="error"></div>
-            </div>
-            <div class="input-group">
+                <input type="password" id="password" placeholder="Enter a Password" name="pass" class="rounded d-block w-100 p-1"><br>
                 <label for="cofirm password">Confirm Password</label>
-                <input type="password" id="cpassword" placeholder="Enter Confirm Password"><i class="fa-solid fa-unlock"></i>
+                <input type="password" id="cpassword" placeholder="Enter Confirm Password" name="cpass" class="rounded d-block w-100 p-1"><br>
                 <a href="">Forget Password?</a>
-                <div class="error"></div>
-            </div>
-            <button id="submit">Submit</button>
+            <button class=" mt-4 p-1 w-100 bg-warning">Submit</button>
         </form>
     </div>
-    </div>
-    </div>
+</div>
+</div>
     <script src="lib/js/bootstrap.min.js"></script>
-    <script src="script2.js"></script>
 </body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js" integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script2.js"></script>
 </html>
